@@ -1,0 +1,7 @@
+target_variable,discoveries,fdr_significant,spatial_eligible,fdr_and_spatial_supported,direction_persistent,integrated_candidates,temporal_ci_supported_both_exploratory
+air_temperature_c,30,25,5,5,17,4,5
+evapotranspiration_mm_month,30,26,23,19,15,10,0
+precipitation_mm_month,30,12,28,11,20,8,4
+rootzone_water_kg_m2,30,15,22,9,13,7,4
+surface_temperature_c,30,21,9,6,19,5,5
+topsoil_water_kg_m2,30,28,14,13,25,11,5

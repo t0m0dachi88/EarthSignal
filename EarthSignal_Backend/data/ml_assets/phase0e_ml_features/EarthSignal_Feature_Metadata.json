@@ -1,0 +1,34 @@
+{
+  "project": "EarthSignal",
+  "phase": "0E",
+  "source": "NASA GLDAS Noah V2.1",
+  "period": "2003-2023",
+  "n_cells": 25604,
+  "variables": [
+    "air_temperature_c",
+    "surface_temperature_c",
+    "precipitation_mm_month",
+    "evapotranspiration_mm_month",
+    "topsoil_water_kg_m2",
+    "rootzone_water_kg_m2"
+  ],
+  "slope_columns": [
+    "air_temperature_c_slope",
+    "surface_temperature_c_slope",
+    "precipitation_mm_month_slope",
+    "evapotranspiration_mm_month_slope",
+    "topsoil_water_kg_m2_slope",
+    "rootzone_water_kg_m2_slope"
+  ],
+  "scaled_columns": [
+    "air_temperature_c_scaled",
+    "surface_temperature_c_scaled",
+    "precipitation_mm_month_scaled",
+    "evapotranspiration_mm_month_scaled",
+    "topsoil_water_kg_m2_scaled",
+    "rootzone_water_kg_m2_scaled"
+  ],
+  "scaler": "RobustScaler",
+  "trend_estimator": "Theil-Sen",
+  "significance_status": "Descriptive trend estimates; autocorrelation-aware significance not yet calculated for all cells."
+}

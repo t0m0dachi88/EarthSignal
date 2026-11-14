@@ -1,0 +1,93 @@
+{
+  "project": "EarthSignal",
+  "source": "NASA GLDAS Noah V2.1",
+  "period": "2003-2023",
+  "grid_cells": 25604,
+  "environmental_variables": [
+    "air_temperature_c",
+    "surface_temperature_c",
+    "precipitation_mm_month",
+    "evapotranspiration_mm_month",
+    "topsoil_water_kg_m2",
+    "rootzone_water_kg_m2"
+  ],
+  "candidate_discoveries": 180,
+  "fdr_significant_discoveries": 127,
+  "primary_spatial_sensitivity": {
+    "maximum_background_distance": 0.75,
+    "minimum_pair_separation_km": 1000,
+    "eligible_pairs": 101,
+    "fdr_and_spatial_supported_pairs": 63
+  },
+  "temporal_direction_persistent": 109,
+  "integrated_candidates": 45,
+  "temporal_bootstrap_interpretation": "Exploratory only; two short windows of 10 and 11 annual observations; do not treat as definitive confirmatory inference.",
+  "spatial_dependence_interpretation": "Global four-neighbour Moran's I permutation diagnostics on trend-slope fields; not a spatial correction to pairwise contrast p-values.",
+  "spatial_dependence_results": [
+    {
+      "variable": "air_temperature_c",
+      "cells": 25604,
+      "moran_i": 0.6023257080451365,
+      "permutation_p_positive": 0.002,
+      "permutations": 499,
+      "neighbour_rule": "four-neighbour grid",
+      "fdr_q_value": 0.002,
+      "fdr_significant": true
+    },
+    {
+      "variable": "surface_temperature_c",
+      "cells": 25604,
+      "moran_i": 0.5867603212123591,
+      "permutation_p_positive": 0.002,
+      "permutations": 499,
+      "neighbour_rule": "four-neighbour grid",
+      "fdr_q_value": 0.002,
+      "fdr_significant": true
+    },
+    {
+      "variable": "precipitation_mm_month",
+      "cells": 25604,
+      "moran_i": 0.8228584853314029,
+      "permutation_p_positive": 0.002,
+      "permutations": 499,
+      "neighbour_rule": "four-neighbour grid",
+      "fdr_q_value": 0.002,
+      "fdr_significant": true
+    },
+    {
+      "variable": "evapotranspiration_mm_month",
+      "cells": 25604,
+      "moran_i": 0.8610869829462394,
+      "permutation_p_positive": 0.002,
+      "permutations": 499,
+      "neighbour_rule": "four-neighbour grid",
+      "fdr_q_value": 0.002,
+      "fdr_significant": true
+    },
+    {
+      "variable": "topsoil_water_kg_m2",
+      "cells": 25604,
+      "moran_i": 0.7576808773752571,
+      "permutation_p_positive": 0.002,
+      "permutations": 499,
+      "neighbour_rule": "four-neighbour grid",
+      "fdr_q_value": 0.002,
+      "fdr_significant": true
+    },
+    {
+      "variable": "rootzone_water_kg_m2",
+      "cells": 25604,
+      "moran_i": 0.7885745785825196,
+      "permutation_p_positive": 0.002,
+      "permutations": 499,
+      "neighbour_rule": "four-neighbour grid",
+      "fdr_q_value": 0.002,
+      "fdr_significant": true
+    }
+  ],
+  "figures": [
+    "/content/earthsignal_drive_mount/MyDrive/EarthSignal/phase0_gldas_2003_2023/phase0g_validation/figures/EarthSignal_Environmental_Trend_Maps.png",
+    "/content/earthsignal_drive_mount/MyDrive/EarthSignal/phase0_gldas_2003_2023/phase0g_validation/figures/EarthSignal_Contrasting_Discovery_Pairs.png",
+    "/content/earthsignal_drive_mount/MyDrive/EarthSignal/phase0_gldas_2003_2023/phase0g_validation/figures/EarthSignal_Validation_Summary.png"
+  ]
+}

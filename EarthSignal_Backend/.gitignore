@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.log
+data/raw/
+data/processed/
+!data/ml_assets/

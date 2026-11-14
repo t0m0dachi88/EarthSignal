@@ -1,0 +1,7 @@
+variable,cells,moran_i,permutation_p_positive,permutations,neighbour_rule,fdr_q_value,fdr_significant
+air_temperature_c,25604,0.6023257080451365,0.002,499,four-neighbour grid,0.002,True
+surface_temperature_c,25604,0.5867603212123591,0.002,499,four-neighbour grid,0.002,True
+precipitation_mm_month,25604,0.8228584853314029,0.002,499,four-neighbour grid,0.002,True
+evapotranspiration_mm_month,25604,0.8610869829462394,0.002,499,four-neighbour grid,0.002,True
+topsoil_water_kg_m2,25604,0.7576808773752571,0.002,499,four-neighbour grid,0.002,True
+rootzone_water_kg_m2,25604,0.7885745785825196,0.002,499,four-neighbour grid,0.002,True

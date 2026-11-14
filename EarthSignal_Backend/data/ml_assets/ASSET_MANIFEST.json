@@ -1,0 +1,26 @@
+{
+  "project": "EarthSignal",
+  "version": "earthsignal-gldas-2003-2023-ml-v1",
+  "included_files": [
+    "phase0e_ml_features/EarthSignal_ML_Features.parquet",
+    "phase0e_ml_features/EarthSignal_RobustScaler.joblib",
+    "phase0e_ml_features/EarthSignal_Feature_Metadata.json",
+    "phase0f_clustering/EarthSignal_Cluster_Results.parquet",
+    "phase0f_clustering/EarthSignal_KMeans.joblib",
+    "phase0f_clustering/EarthSignal_Cluster_Profiles.csv",
+    "phase0f_clustering/EarthSignal_Cluster_Scores.csv",
+    "phase0f_clustering/EarthSignal_Cluster_Stability.csv",
+    "phase0f_contrast_discovery/EarthSignal_Contrasting_Patterns.csv",
+    "phase0f_contrast_discovery/EarthSignal_Contrasting_Patterns.json",
+    "phase0g_validation/EarthSignal_Contrast_FDR_Validation.csv",
+    "phase0g_validation/EarthSignal_Spatial_Robustness.csv",
+    "phase0g_validation/EarthSignal_Temporal_Robustness.csv",
+    "phase0g_validation/EarthSignal_Temporal_Bootstrap_Validation.csv",
+    "phase0g_validation/EarthSignal_Global_MoransI_Spatial_Dependence.csv",
+    "phase0g_validation/EarthSignal_Integrated_Discovery_Evaluation.csv",
+    "phase0g_validation/EarthSignal_Integrated_Evaluation_Summary.csv",
+    "phase0g_validation/EarthSignal_Final_ML_Results_Summary.json",
+    "phase0c_preprocessing/features/trends/EarthSignal_annual_anomalies.nc"
+  ],
+  "missing_files": []
+}

@@ -1,0 +1,4 @@
+cluster_id,air_temperature_c_slope,surface_temperature_c_slope,precipitation_mm_month_slope,evapotranspiration_mm_month_slope,topsoil_water_kg_m2_slope,rootzone_water_kg_m2_slope
+0,0.54288787,0.18704307,-2.068227,3.7947493,-0.2346701,-4.431017
+1,1.3820657,1.1487334,0.15052654,0.9519672,0.17490505,0.037738867
+2,0.48186582,0.17794567,7.4938664,3.0529063,0.5720966,8.403386
